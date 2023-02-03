@@ -18,6 +18,10 @@ A simple SKSE plugin for Skyrim using:
 - [CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG)
   - _automatically downloaded using vcpkg integration of CMake_
 
+Also sets up CMake to compile all header & source files in the `src/` folder. 
+Just specify what files that should be included in `cmake/headerlist.cmake` & `cmake/sourcelist.cmake`.
+Don't forget to add all new files you create to those two files or they won't be compiled!
+
 > Because this uses CommonLibSSE NG, it supports Skyrim SSE, AE, GOG, and VR!
 
 ## What does it do?

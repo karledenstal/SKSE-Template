@@ -15,5 +15,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
 
     InitializeLog();
 
+    logger::info("This is a template repo");
+
     return true;
 }
